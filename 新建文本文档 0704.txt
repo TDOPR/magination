@@ -1,0 +1,5 @@
+主合约   0x3CA998448CAeFC58e75b0ebEF307B4eF28c0b0fe
+
+调用主合约  MultiMagicion     updateReward方法   输入参数 address
+checkStart方法   不输入参数
+buyNewNftBox 方法   输入参数   usdt的数量   推荐人地址 address

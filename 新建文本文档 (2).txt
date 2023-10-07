@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
+
+contract UsdtToken is ERC20Capped{
+    constructor(uint256 cap) ERC20("UsdtToken", "USDT") ERC20Capped(cap){
+        
+    }
+
+    function issueToken() public{
+        _mint(msg.sender, 1000000000000*10**18);
+    }
+}

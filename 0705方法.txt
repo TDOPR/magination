@@ -1,0 +1,26 @@
+输入mfs  得到 usdt     调用方法getUsdtAmountByMfsAmount    参数  mfs  数量
+输入usdt     得到 mfs  调用方法getMfsAmountByUsdtAmount    参数  usdt     数量
+
+
+
+团队人数    调用userShareData方法   的结构体 struct  NodeAward的 teamNum参数
+
+直推人员  调用userShareData方法     的 partnersCount 参数
+
+团队业绩  用library DataSets   的结构体 struct  NodeAward的  teamTotalValue参数
+
+待释放收益    balanceof方法   传入用户地址  返回 pendingIssueValue
+
+累计提取总收益   调用library DataSets   的结构体 struct User   的 allBonus参数
+
+我的投入     balanceof方法   传入用户地址    返回  betValue
+
+
+分享奖励     调用library DataSets   的结构体 struct User   的 shareBonus参数
+
+团队奖励     调用library DataSets   的结构体 struct User   的 teamBonus参数
+
+待领取魔盒奖励    
+
+一键领取    调用方法  getReward（）
+0x95B7cC1d94f9063e3578215EC7f78B4D5655462D
